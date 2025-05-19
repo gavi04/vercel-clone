@@ -11,10 +11,19 @@
   "description": "",
   "dependencies": {
     "@aws-sdk/client-ecs": "^3.787.0",
+    "@prisma/client": "^6.7.0",
     "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "init": "^0.1.2",
+    "install": "^0.13.0",
     "ioredis": "^5.6.1",
+    "jsonwebtoken": "^9.0.2",
+    "npm": "^11.3.0",
     "random-word-slugs": "^0.1.7",
     "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "prisma": "^6.7.0"
   }
 }
