@@ -1,1 +1,14 @@
 *.env 
+
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+*/dist/
+*/build/
+*/out/

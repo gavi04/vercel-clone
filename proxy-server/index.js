@@ -4,7 +4,7 @@ const httpProxy = require('http-proxy')
 const app = express()
 const PORT = 8000
 
-const BASE_PATH = 'https://vercel-iman.s3.ap-south-1.amazonaws.com/__outputs'//url of s3 bucket
+const BASE_PATH = process.env.BASE_PATH//url of s3 bucket
 
 const proxy = httpProxy.createProxy()
 

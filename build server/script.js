@@ -8,7 +8,7 @@ const mime = require('mime-types');
 const Valkey = require("ioredis");
 
 // Redis setup
-const valkey = new Valkey( "rediss://default:AVNS_vqRCfHx1vKLtU99iKBz@valkey-vercel-gavisohal87.f.aivencloud.com:25231");
+const valkey = new Valkey(process.env.serviceUri);
 
 // S3 setup
 const s3Client = new S3Client({
